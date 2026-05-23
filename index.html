@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML - CSS</title>
+    <link rel="shortcut icon" href="dedodomeio.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Anotações de estudo do curso HTML e CSS com Gustavo Guanabara</h1>
+            <p id="linkcurso"><a target="_blank" rel="external" href="https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s">Link do curso</a></p>
+        </section>
+    </header>
+    <main>
+        <div >
+            <h1>Fontes</h1>
+            <ul>
+                <li>font-style : italic;</li>
+                <li><span title="Peso, ou largura da letra, tipo negrito">font-weight : bolder;</span></li>
+                <li>font-size : 3em;</li>
+                <li>font-family: 'Courier New', Courier, monospace;</li>
+            </ul>
+            <h1>Fontes Externas</h1>
+            <ul>
+                <li>@import url('https://fonts.googleapis.
+                    com/css2?family=Roboto:ital,wght@0,100..
+                    900;1,100..900&display=swap');</li>
+            </ul>
+            <h1>Fontes Baixadas</h1>
+            <ul>
+                <li>@font-face {
+                    font-family: "Exemplo";
+                    src: url("fonts/exemplo.ttf");}</li>
+                    <h1></h1>
+                <li>h1 {
+                    font-family: "Exemplo";}</li>
+            </ul>
+        </div>
+        <div >
+            <h1>Abrir link em nova guia</h1>
+            <ul>
+                <li>target="_blank"</li>
+                <li>rel="external"</li>
+            </ul>
+            <p style="text-align: left;">a target="_blank" rel="external" href="www.youtube.com">youtube a</p>
+            <a target="_blank" rel="external" href="https://www.youtube.com">YouTube</a>
+        </div>
+        <div >
+            <h1>Comandos Head</h1>
+            <h3>link</h3>
+            <ul>
+                <li><span title="Logotipo que fica na aba">Favicon</span></li>
+                <li><span title="Linka com o arquivo .css">Css</span></li>
+            </ul>
+        </div>
+        <div  id="hover">
+            <h1>Classes e IDs</h1>
+            <h3>Obs.: id sobrepoem class</h3>
+            <ul>
+                <li><span title="No HTML">class</span> = <span title="no CSS">.</span></li>
+                <li><span title="No HTML">id</span> = <span title="no CSS">#</span></li>
+            </ul>
+            <h1>Pseudos</h1>
+            <h3>Pseudo-Class</h3>
+            <p>ex.: div:hover{ <p>background-color: rgb(0, 255, 170);<p>}</p></p></p>
+            <p>Representado no CSS por :</p>
+            <h3>Pseudo-Element</h3>
+            <p>ex.: div::after{<p>content: '<';</p><p>}</p></p>
+            <p>ex.: div::before{<p>content: '>';</p><p>}</p></p>
+            <p>resultado : >Teste<</p>
+        </div>
+        <div >
+            <h1>Imagens</h1>
+            <p>Comando "img"</p>
+            <p>src="" = Arquivo ou link da imagem</p>
+            <p>alt="" = O que a imagem representa, texto oculto</p>
+            <img style="height: 100px;" src="https://media.discordapp.net/attachments/1445865239571726396/1505409422678298715/homer-simpson-homer-dance.gif?ex=6a107407&is=6a0f2287&hm=29b742ecf78616a55fccf7bed546ee3a24c93c149a68989534d190526f1f54ac&=" alt="">
+        </div>
+        <div >
+            <h1>Configuração de BOX</h1>
+            <ul>
+                <li><span title="Altura da box">height: 100px;</span></li>
+                <li><span title="Largura da box">width: 100px;</span></li>
+                <li><span title="Da um espaçamento pelo lado de fora do box, nesse caso, na parte debaixo">margin-bottom: 10px;</span></li>
+                <li><span title="Coloca os box um ao lado do outro">display: inline-block;</span></li>
+            </ul>
+            <h3>Tipos de Display</h3>
+            <ul>
+                <li><span title="Usado para ficar um embaixo do outro">Display Box-Level</span></li>
+                <ul>
+                    <li>div</li>
+                    <li>h1</li>
+                    <li>p</li>
+                </ul>
+                <li><span title="Usado para ficar um ao lado do outro, na mesma linha">Inline-Level</span></li>
+                <ul>
+                    <li>span</li>
+                    <li>strong</li>
+                    <li>a</li>
+                </ul>
+            </ul>
+        </div>
+        <div >
+            <h1>Visual da BOX</h1>
+            <img src="https://cdn.discordapp.com/attachments/1445865239571726396/1506663057475244032/image.png?ex=6a0f14d1&is=6a0dc351&hm=d3922e7814a5658b857fd35fce07bd25125b6fc10e12c5f3b695ab7d03033136&" alt="Visualizando o BOX">
+            <ul>
+                <li>padding = borda pra dentro</li>
+                <li>margin = borda pra fora</li>
+            </ul>
+        </div>
+        <div style="border-width: 5px; border-style: solid; border-color:rgb(255, 0, 0) ;">
+            <h1>Bordas</h1>
+            <ul>
+                <li><span title="Largura da borda">border-width: 10px;</span></li>
+                <li><span title="Estilo da borda">border-style: solid;</span></li>
+                <li><span title="Cor da borda">border-color: black;</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Margin</h1>
+            <ul>
+                <li><span title="para deixar algo centralizado">margin: auto;</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1>ShortHands</h1>
+            <ul>
+                <li>Font
+                    <ul><li>font: italic bolder 3em Arial, sans-serife;</li></ul>
+                </li>
+                <li>Border
+                    <ul><li>border: 10px solid black;</li></ul>
+                </li>
+                <li>Padding
+                    <ul><li><span title="sempre no sentido horario">padding: 10px 10px 10px 10px;</span></li></ul>
+                </li>
+                <li>Margin
+                    <ul><li><span title="sempre no sentido horario">margin: 10px 10px 10px 10px;</span></li></ul>
+                </li>
+                <li>Outline
+                    <ul><li>outline: 10px dashed black</li></ul>
+                </li>
+            </ul>
+        </div>
+        <div >
+            <h1>Flex</h1>
+            <ul>
+                <li>display: flex;</li>
+                <li>flex-direction: row-reverse;</li>
+                <li>justify-content: flex-start;</li>
+                <li>align-items: flex-start;</li>
+                <li>align-items: stretch;</li>
+                <li>justify-content: space-between;</li>
+                <li>flex-direction: column;</li>
+                <li>justify-content: space-around;</li>
+                <li>.target:nth-of-type(1)</li>
+                <li>align-self: stretch;</li>
+                <li>align-self: flex-start;</li>
+                <li>flex-grow: 1;</li>
+                <li>align-self: stretch;</li>
+                <li>flex-shrink: 1;</li>
+            </ul>
+        </div>
+        <div >
+            <h1>Textos</h1>
+            <ul>
+                <li><span title="remove qualquer decoração, bom para ser usado em links">text-decoration: none;</span></li>
+                <li><span title="Alinhamento das letras">text-align: justify;</span></li>
+                <li><span title="Troca a cor das letras">color: white;</span></li>
+            </ul>
+        </div>
+        <div>
+            <h1>Tags Semânticas</h1>
+            <ul>
+                <li><span title="Cabeçalho">header</span></li>
+                <li><span title="Conteudo principal">main</span></li>
+                <li><span title="Roda pé">footer</span></li>
+                <li><span title="Navegação, mais usado com links">nav</span></li>
+                <li><span title="Mesma função do div">section</span></li>
+                <li><span title="Artigo">article</span></li>
+                <li><span title="">aside</span></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <section>
+            <h1 class="rodape">Desenvolvido por Bahiaaaa</h1>
+        </section>
+    </footer>
+</body>
+</html>
