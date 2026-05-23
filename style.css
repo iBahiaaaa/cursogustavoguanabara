@@ -54,28 +54,31 @@ div{
     vertical-align: top;
     padding: 10px;
     box-sizing: border-box;
+
+    h1{
+    color: rgb(9, 255, 0);
+    text-align: center;
+    padding: 10px;
+    }
+    
+    li, p{
+        font-weight: bold;
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding: 10px;
+        font-weight: bolder;
+    }
+
+    h2::before{
+    content: '•';
+    }
 }
 body{
     background-color: rgb(44, 44, 44);
 
-}
-
-ul{
-    text-align: left;
-}
-
-h1{
-    text-align: center;
-    padding: 10px;
-}
-
-h3{
-    text-align: left;
-    padding: 10px;
-}
-
-h3::before{
-    content: '•';
 }
 
 #hover:hover{
