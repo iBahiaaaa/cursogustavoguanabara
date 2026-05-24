@@ -179,3 +179,7 @@ body{
 #backgroundimage{
     background-image: linear-gradient(to right, white, transparent);
 }
+
+#emoji::after{
+    content: '\1F517';
+}
