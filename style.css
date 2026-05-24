@@ -175,3 +175,7 @@ body{
 #macaquinho:hover{
     content: url('https://cdn.discordapp.com/attachments/1445865239571726396/1507920171673718925/monkey-cymbals.gif?ex=6a13a798&is=6a125618&hm=47bf5bc06b352919bfd6dede544bf7d96a84cd8210dfd39c0b6071081aaf1c0f&');
 }
+
+#backgroundimage{
+    background-image: linear-gradient(to right, white, transparent);
+}
