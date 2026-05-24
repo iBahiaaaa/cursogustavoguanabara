@@ -148,6 +148,12 @@ div{
     }
 }
 
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 #imganimation1:hover{
     content: url("https://cdn.discordapp.com/attachments/1445865239571726396/1507770102399893675/371907120_YOUTUBE_ICON_TRANSPARENT_400.gif?ex=6a131bd5&is=6a11ca55&hm=05decec16b3419756aa8d1146c9fa09f606ed5afb9e03afd116cd1cdaf946cc0&");
 }
