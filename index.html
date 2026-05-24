@@ -78,13 +78,6 @@
             <p>resultado : >Teste<</p>
         </div>
         <div >
-            <h1>Imagens</h1>
-            <p>Comando "img"</p>
-            <p>src="" = Arquivo ou link da imagem</p>
-            <p>alt="" = O que a imagem representa, texto oculto</p>
-            <img style="height: 100px;" src="https://media.discordapp.net/attachments/1445865239571726396/1505409422678298715/homer-simpson-homer-dance.gif?ex=6a107407&is=6a0f2287&hm=29b742ecf78616a55fccf7bed546ee3a24c93c149a68989534d190526f1f54ac&=" alt="">
-        </div>
-        <div >
             <h1>Configuração de BOX</h1>
             <ul>
                 <li><span title="Altura da box">height: 100px;</span></li>
@@ -176,6 +169,22 @@
                 <li><span title="Alinhamento das letras">text-align: justify;</span></li>
                 <li><span title="Troca a cor das letras">color: white;</span></li>
             </ul>
+        </div>
+        <div >
+            <h1>Imagens</h1>
+            <p>Comando "img"</p>
+            <p>src="" = Arquivo ou link da imagem</p>
+            <p>alt="" = O que a imagem representa, texto oculto</p>
+            <img style="height: 100px;" src="https://media.discordapp.net/attachments/1445865239571726396/1505409422678298715/homer-simpson-homer-dance.gif?ex=6a107407&is=6a0f2287&hm=29b742ecf78616a55fccf7bed546ee3a24c93c149a68989534d190526f1f54ac&=" alt="">
+            <h1>Imagens Responsivas</h1>
+            <p>Usado para colocar varias imagens, muitas vezes iguais, para se adaptar aos tamanhos de telas</p>
+            <p>Comando "picture"</p>
+            <p>source:media vai dentro do picture</p>
+            <p>source media="(<span title="Representa o tamanho maximo da imagem">max-width</span>: )" <span title="Apenas arquivo, nao funciona com links">srcset=""</span></p>
+            <picture>
+                <source media="(max-width:1000px )" srcset="homer.gif">
+                <img style="width: 150px;" src="macaco.png" alt="Macaco">
+            </picture>
         </div>
         <div>
             <h1>Tags Semânticas</h1>
