@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ultra&display=swap');
 
 *{
     margin: 0%;
@@ -15,37 +15,56 @@ a:hover{
     text-decoration: underline;
 }
 
-main{}
-
-.fundobranco{
-    background-color: white;
-    font-size: clamp(2em, 8vw, 8em);
-    font-family: Caveat;
+main p{
+    letter-spacing: -3.5px;
+    line-height: 1.7em;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.fundopreto{
-    background-color: rgba(0, 0, 0, 0.50);
-    font-size: clamp(2em, 8vw, 8em);
-    font-family: Caveat;
-    color: white;
+.fundoBranco{
+    background-color: white;
+    font-size: clamp(2em, 8vw, 5em);
+    font-family: Patrick Hand;
+    margin: 50px 0px 50px 50px;
 }
 
 body{
-    margin: 0%;
+
 }
 
-#imgcima{
+.imgCima{
     background-image: url('background001.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 50px 0 50px 30px;
+
+    .fundoPreto{
+        font-size: clamp(2em, 8vw, 5em);
+        font-family: Patrick Hand;
+        color: white;
+        width: max-content;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+
 }
 
-#imgbaixo{
+.imgBaixo{
     background-image: url('background002.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 50px 0 50px 30px;
+
+    .fundoPreto{
+        font-size: clamp(2em, 8vw, 5em);
+        font-family: Patrick Hand;
+        color: white;
+        width: max-content;
+        background-color: rgba(0, 0, 0, 0.50);
+        padding: 30px;
+    }
 }
 
 header{
@@ -53,17 +72,21 @@ header{
     color: white;
     text-align: center;
     padding-top: 10px;
+    width: 100%;
 
     h1{
-        font-size: clamp(5em, 7vw, 10em);
+        font-size: clamp(3em, 10vw, 10em);
     }
     p{
         padding-bottom: 50px;
     }
 }
 
+footer{
+    width: 100%;
+}
+
 footer > section{
-    position: relative;
     background-color: black;
     color: white;
     text-align: center;
@@ -72,11 +95,15 @@ footer > section{
 
     h3{
         font-weight: normal;
-        position: absolute;
-        transform: translate(190%, -50%);
+        margin: auto;
+        font-size: clamp(0.1em, 7vw, 1em);
     }
 }
 
 #voltar{
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -15px;
+    margin-right: 10px;
 }
