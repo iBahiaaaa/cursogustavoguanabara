@@ -5,6 +5,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 :root{
     --cor0: #838383;
     --cor1: #5a5a5a;
@@ -201,4 +206,8 @@ p#centralizarlink::after{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#sombrainterna{
+    box-shadow: inset 5px 5px 10px black;
 }
