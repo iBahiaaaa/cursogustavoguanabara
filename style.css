@@ -167,6 +167,13 @@ body{
 
 }
 
+p#centralizarlink{
+    text-align: center;
+}
+p#centralizarlink::after{
+    content: '\1F517';
+}
+
 #hover:hover{
     background-color: var(--cor3);
     transition: background-color 1s ease;
