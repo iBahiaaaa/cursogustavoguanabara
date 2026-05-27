@@ -112,3 +112,15 @@ span{
 .borda{
     border: 5px solid black;
 }
+
+/* Treinos Personalizados Tomaty */
+
+#diaPrimeiro{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+#diaSegundo{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
