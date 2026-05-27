@@ -30,6 +30,7 @@ h1{
     color: var(--cor3);
     text-shadow: 0 0 3px black;
     font-size: 3em;
+    padding-top: 10px;
 }
 
 a{
