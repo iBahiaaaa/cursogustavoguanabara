@@ -97,3 +97,7 @@ img{
 span{
     font-size: 1.1em;
 }
+
+.borda{
+    border: 5px solid black;
+}
