@@ -69,6 +69,11 @@ p:hover{
     scroll-snap-align: start;
 }
 
+#sobrepor{
+    position: sticky;
+    top: 0;
+}
+
 #terca{
     min-height: 100vh;
     scroll-snap-align: start;
