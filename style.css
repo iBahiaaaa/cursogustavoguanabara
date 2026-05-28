@@ -175,6 +175,7 @@ body{
 table{
     border-collapse: collapse;
     margin: auto;
+    position: relative;
 
     thead, tbody, tfoot, td, th{
         border: 1px solid black;
@@ -182,6 +183,15 @@ table{
         padding: 3px;
         margin: 8px;
     }
+
+    thead{
+        background-color: #5a5a5a;
+    }
+}
+
+table > thead{
+    position: sticky;
+    top: 0;
 }
 
 p#centralizarlink{
