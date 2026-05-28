@@ -172,6 +172,18 @@ body{
 
 }
 
+table{
+    border-collapse: collapse;
+    margin: auto;
+
+    thead, tbody, tfoot, td, th{
+        border: 1px solid black;
+        width: 50px;
+        padding: 3px;
+        margin: 8px;
+    }
+}
+
 p#centralizarlink{
     text-align: center;
 }
